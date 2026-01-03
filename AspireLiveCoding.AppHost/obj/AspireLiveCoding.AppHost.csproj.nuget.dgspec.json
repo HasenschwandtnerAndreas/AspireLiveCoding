@@ -58,6 +58,22 @@
               "target": "Package",
               "version": "[13.1.0, )",
               "autoReferenced": true
+            },
+            "Aspire.Hosting.PostgreSQL": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            },
+            "Aspire.Hosting.RabbitMQ": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            },
+            "Aspire.Hosting.Redis": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            },
+            "Aspire.Hosting.Seq": {
+              "target": "Package",
+              "version": "[13.1.0, )"
             }
           },
           "imports": [

@@ -13,4 +13,11 @@
     <ProjectReference Include="..\AspireLiveCoding.CarWorker\AspireLiveCoding.CarWorker.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.1.0" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="13.1.0" />
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="13.1.0" />
+    <PackageReference Include="Aspire.Hosting.Seq" Version="13.1.0" />
+  </ItemGroup>
+
 </Project>
