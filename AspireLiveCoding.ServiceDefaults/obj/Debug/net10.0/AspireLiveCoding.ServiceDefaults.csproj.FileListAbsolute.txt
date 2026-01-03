@@ -1,0 +1,12 @@
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\bin\Debug\net10.0\AspireLiveCoding.ServiceDefaults.deps.json
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\bin\Debug\net10.0\AspireLiveCoding.ServiceDefaults.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\bin\Debug\net10.0\AspireLiveCoding.ServiceDefaults.pdb
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\obj\Debug\net10.0\AspireLiveCoding.ServiceDefaults.csproj.AssemblyReference.cache
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\obj\Debug\net10.0\AspireLiveCoding.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\obj\Debug\net10.0\AspireLiveCoding.ServiceDefaults.AssemblyInfoInputs.cache
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\obj\Debug\net10.0\AspireLiveCoding.ServiceDefaults.AssemblyInfo.cs
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\obj\Debug\net10.0\AspireLiveCoding.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\obj\Debug\net10.0\AspireLiveCoding.ServiceDefaults.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\obj\Debug\net10.0\refint\AspireLiveCoding.ServiceDefaults.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\obj\Debug\net10.0\AspireLiveCoding.ServiceDefaults.pdb
+D:\Prog\AspireLiveCoding\AspireLiveCoding.ServiceDefaults\obj\Debug\net10.0\ref\AspireLiveCoding.ServiceDefaults.dll
