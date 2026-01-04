@@ -120,8 +120,6 @@ D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\AspireLiveCo
 D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\AspireLiveCoding.AppHost.AssemblyInfoInputs.cache
 D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\AspireLiveCoding.AppHost.AssemblyInfo.cs
 D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\AspireLiveCoding.AppHost.csproj.CoreCompileInputs.cache
-D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\Aspire\references\AspireLiveCoding_ApiService.ProjectMetadata.g.cs
-D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\Aspire\references\AspireLiveCoding_Worker.ProjectMetadata.g.cs
 D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
 D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\AspireLi.63C42ED1.Up2Date
 D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\AspireLiveCoding.AppHost.dll
@@ -129,3 +127,16 @@ D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\refint\Aspir
 D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\AspireLiveCoding.AppHost.pdb
 D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\AspireLiveCoding.AppHost.genruntimeconfig.cache
 D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\ref\AspireLiveCoding.AppHost.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\Aspire.Hosting.PostgreSQL.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\Aspire.Hosting.RabbitMQ.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\Aspire.Hosting.Redis.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\Aspire.Hosting.Seq.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\HealthChecks.NpgSql.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\HealthChecks.Rabbitmq.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\HealthChecks.Redis.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\Npgsql.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\Pipelines.Sockets.Unofficial.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\RabbitMQ.Client.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\bin\Debug\net10.0\StackExchange.Redis.dll
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\Aspire\references\AspireLiveCoding_CarApi.ProjectMetadata.g.cs
+D:\Prog\AspireLiveCoding\AspireLiveCoding.AppHost\obj\Debug\net10.0\Aspire\references\AspireLiveCoding_CarWorker.ProjectMetadata.g.cs

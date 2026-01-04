@@ -9,7 +9,9 @@ var postgres = builder.AddPostgres("postgres")
 var carDb = postgres.AddDatabase("cardb");
 
 // Add a Redis container resource for caching/demo purposes.
-var redis = builder.AddRedis("redis");
+var redis = builder.AddRedis("redis")
+    // Force plain TCP to avoid TLS probe noise and health-check issues.
+    .WithArgs("--port", "6379", "--tls-port", "0");
 // Add a RabbitMQ container resource for messaging/demo purposes.
 var rabbitMq = builder.AddRabbitMQ("rabbitmq");
 // Add a Seq container resource for centralized logging/tracing demos.

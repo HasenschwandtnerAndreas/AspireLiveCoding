@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspireLiveCoding.CarApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2076e99401125e334fb96d9b90115a1499ffc504")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f01f37a6555369609e5d6d3ea17ae4ee473ef06f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspireLiveCoding.CarApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspireLiveCoding.CarApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

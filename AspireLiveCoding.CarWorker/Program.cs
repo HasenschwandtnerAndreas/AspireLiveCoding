@@ -1,10 +1,13 @@
 using System.Net.Http.Json;
+using Microsoft.Extensions.ServiceDiscovery;
 
 var builder = Host.CreateApplicationBuilder(args);
 
 builder.AddServiceDefaults();
 
-builder.Services.AddHttpClient("cars", client => client.BaseAddress = new Uri("http://carapi"));
+builder.Services.AddServiceDiscovery();
+builder.Services.ConfigureHttpClientDefaults(http => http.AddServiceDiscovery());
+builder.Services.AddHttpClient("cars", client => client.BaseAddress = new Uri("https+http://carapi"));
 builder.Services.AddHostedService<CarServiceWorker>();
 
 var host = builder.Build();
