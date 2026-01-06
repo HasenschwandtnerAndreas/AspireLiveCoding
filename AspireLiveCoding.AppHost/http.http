@@ -1,0 +1,21 @@
+﻿@baseUrl = http://localhost:5271
+@carId = 58c75d19-9ba4-4e9e-b4a5-0aa364af59ce
+
+### Create car
+POST http://localhost:5271/cars
+Content-Type: application/json
+
+{
+  "make": "Volkswagen",
+  "model": "Golf"
+}
+
+
+### List cars
+GET {{baseUrl}}/cars
+
+### Get car by id (replace GUID)
+GET {{baseUrl}}/cars/{{carId}}
+
+### Service car by id (replace GUID)
+POST {{baseUrl}}/cars/{{carId}}/service
