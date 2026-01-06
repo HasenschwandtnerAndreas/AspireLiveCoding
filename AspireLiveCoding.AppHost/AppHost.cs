@@ -27,8 +27,13 @@ var keycloak = builder.AddContainer("keycloak", "quay.io/keycloak/keycloak:24.0.
     // Start Keycloak in dev mode for quick setup.
     .WithArgs("start-dev");
 
+// Use a fixed local URL so the worker can always resolve the API.
+const string CarApiUrl = "http://localhost:5271";
+
 // Add the Car API project to the app host.
 var carApi = builder.AddProject<Projects.AspireLiveCoding_CarApi>("carapi")
+    // Bind the API to a known local URL for reliable demos.
+    .WithEnvironment("ASPNETCORE_URLS", CarApiUrl)
     // Inject the Postgres database connection string into the Car API.
     .WithReference(carDb)
     // Inject Redis connection details into the Car API.
@@ -40,7 +45,10 @@ var carApi = builder.AddProject<Projects.AspireLiveCoding_CarApi>("carapi")
 // Add the Car Worker project and connect it to the Car API.
 builder.AddProject<Projects.AspireLiveCoding_CarWorker>("carworker")
     // Allow the worker to resolve the Car API via service discovery.
-    .WithReference(carApi);
+    .WithReference(carApi)
+    // Provide an explicit HTTP endpoint URL to avoid DNS resolution issues.
+    .WithEnvironment("CARAPI_URL", CarApiUrl);
 
 // Build the distributed application model and run it.
 builder.Build().Run();
+

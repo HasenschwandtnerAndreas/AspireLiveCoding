@@ -7,7 +7,17 @@ builder.AddServiceDefaults();
 
 builder.Services.AddServiceDiscovery();
 builder.Services.ConfigureHttpClientDefaults(http => http.AddServiceDiscovery());
-builder.Services.AddHttpClient("cars", client => client.BaseAddress = new Uri("https+http://carapi"));
+
+var carApiUrl = builder.Configuration["CARAPI_URL"]
+    ?? builder.Configuration["services:carapi:http:0"]
+    ?? builder.Configuration["services:carapi:https:0"];
+builder.Services.AddHttpClient("cars", client =>
+{
+    // Prefer the Aspire-provided service URL; fall back to service discovery if missing.
+    client.BaseAddress = !string.IsNullOrWhiteSpace(carApiUrl)
+        ? new Uri(carApiUrl)
+        : new Uri("https+http://carapi");
+});
 builder.Services.AddHostedService<CarServiceWorker>();
 
 var host = builder.Build();
@@ -31,6 +41,7 @@ sealed class CarServiceWorker : BackgroundService
     {
         var timer = new PeriodicTimer(TimeSpan.FromSeconds(4));
         var client = _httpClientFactory.CreateClient("cars");
+        _logger.LogInformation("CarWorker using Car API base address {BaseAddress}", client.BaseAddress);
 
         while (await timer.WaitForNextTickAsync(stoppingToken))
         {
